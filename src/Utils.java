@@ -15,6 +15,17 @@ public class Utils {
 		}
 		System.out.println();
 	}
+	public static void swap(int[] array, int i, int j){
+		int temp = array[i];
+		array[i] = array[j];
+		array[j] = temp;
+	}
+	public static void printObjArray(Integer[] array){
+		for(int i = 0; i< array.length; i++){
+			System.out.print(array[i] + "  ");
+		}
+		System.out.println();
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

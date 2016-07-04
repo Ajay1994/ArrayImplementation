@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class CountInversion {
 	static int inv_count = 0;
-	int array[] = {1, 20, 6, 4, 5};
+	int array[] = {1,1,1,1};
 	public void printArray(int[] array){
 		for(int i = 0; i< array.length; i++){
 			System.out.print(array[i] + "  ");
